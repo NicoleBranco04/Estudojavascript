@@ -1,0 +1,17 @@
+#miniatura {
+  position: fixed;
+  bottom: 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#miniatura img {
+  width: 200px;
+  height: 180px;
+  cursor: pointer;
+  margin: 20px;
+  transition: ease 0.5s;
+}
+#miniatura img:hover {
+  transform: scale(1.1);
+}
