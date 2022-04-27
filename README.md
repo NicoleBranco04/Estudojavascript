@@ -17,3 +17,18 @@
 ```javascript
 <script>alert ("Olá Mundo");</script>
 ```
+
+Outro Exemplo de aplicação do JavaScript
+
+```html
+<html>
+  <head>
+    <title>Exemplo</title>
+  </head>
+  <body>
+    <script>
+      console.log("Olá Mundo");
+    </script>
+  </body>
+</html>
+```
