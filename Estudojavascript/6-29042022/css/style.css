@@ -1,0 +1,66 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+#filmes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+#filmes div{
+    width: 15%;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(207, 205, 205);
+    background-color: white;
+    transition: ease 1s;
+}
+
+#filmes div img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.voto{
+    background-color: #000;
+    color: #fff;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -15px;
+    /*para  trazer a bolinha para frete, altere o empilhamento com z-index*/
+    z-index: 10000;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    border: 1.5px solid greenyellow;
+    box-shadow: 0px 0px 0px 2px #000;
+    font-size: 8pt;
+    font-family: Arial;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 15pt;
+    margin: 10px;
+}
+
+.data{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12pt;
+}
+
+#filmes div:hover{
+    cursor: pointer;
+    z-index: 10000;
+    transform: scale(1.5);
+    box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.8);
+}
