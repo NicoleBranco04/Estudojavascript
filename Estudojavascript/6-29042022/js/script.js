@@ -2,7 +2,7 @@
 *Realizar a consulta dos dados dos filmes na API do themoviedb.
 *Vamos usar o comando fetch(buscar / pesquisar) e ele
 *tem 2 elementos para trabalhae.
-* - then(então) quando o resultado é um erro.
+* - then(então) quando o resultado não é um erro.
 * - catch(capturar) quando o resultado é um erro.
 */
 
